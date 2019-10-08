@@ -1,0 +1,78 @@
+.pageContent {
+    display: flex;
+    flex-direction: row
+}
+
+#mainPage {
+    margin-left: 50px;
+    margin-right: 90px;
+}
+
+#mainPage h2{
+    text-transform: uppercase;
+}
+
+.header{
+    column-span: all;
+    padding-top: 5px;
+    background-color: rgb(62, 168, 161);
+    height: 160px;
+}
+
+.headerText {
+    margin-left: 370px;
+    margin-right:370px;
+    margin-top:20px;
+    border: 2px solid white;
+    text-align: center;
+    color: white;
+    
+}
+
+#profilePic {
+    display: block;
+    margin: 0 auto;
+    padding: 30px;    
+    height: 200px;
+    width: 200px;
+}
+
+img{
+    border-radius: 2in;
+    align: center;
+}
+
+#sidebar{
+    background-color: rgb(243, 243, 243);
+    width: 500px;
+    margin: 0 auto;
+    margin: 0 auto;
+    margin-left: 150px;
+    margin-top: 25px;
+    margin-bottom: 200px;
+}
+
+
+#sidebar-info {
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.thickLine{
+    border: 1.5px solid black;
+    margin-right: 20px;
+}
+
+.skillsList {
+    display: flex;
+    flex-direction: row;
+}
+
+.pastActivity{
+    display: flex;
+    flex-direction: row;
+}
+
+.pastActivity p{
+    margin-right:30px;
+}
